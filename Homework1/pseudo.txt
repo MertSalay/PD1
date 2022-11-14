@@ -1,0 +1,50 @@
+6)
+start
+read.FT
+CM=FT*30.48
+print.CM
+end
+=======================
+7)
+start
+read.count=1
+while.count<11
+ print.count^2
+ count++
+end
+=======================
+8)
+start
+read.SUM=0, LOW=3, HIGH=9
+while.LOW<=HIGH
+ SUM+=LOW
+ LOW++
+print.SUM
+end
+=======================
+9)
+start
+read.LOW,HIGH,NUMBER
+while.LOW<=HIGH
+ if.LOW mod NUMBER=0
+  print.LOW
+ LOW+=1
+end
+=======================
+12)
+start
+LOW=0,HIGH=100,STEP=5
+while.LOW<=HIGH
+ print.LOW
+ LOW+=STEP
+end
+=======================
+13)
+start
+count=0,10
+while.count<=10
+ m=count*6
+ print.m
+ count++
+end
+=======================
