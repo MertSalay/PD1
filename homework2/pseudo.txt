@@ -1,0 +1,14 @@
+1)
+start
+read.a,b
+area=a*b
+perimeter=2*(a+b)
+print.area,perimeter
+end
+======================
+5)
+start
+a=2*2*2*2
+print.a
+end
+======================
